@@ -3,6 +3,8 @@ import { AboutSection } from "@/components/about-section"
 import { SkillsSection } from "@/components/skills-section"
 import { PortfolioSection } from "@/components/portfolio-section"
 import { ContactSection } from "@/components/contact-section"
+import { WhatsAppFloat } from "@/components/whatsapp-float"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <SkillsSection />
       <PortfolioSection />
       <ContactSection />
+      <WhatsAppFloat />
+      <ThemeToggle />
     </main>
   )
 }

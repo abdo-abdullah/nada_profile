@@ -8,7 +8,7 @@ export function AboutSection() {
           <h2 className="font-heading text-5xl md:text-6xl font-bold text-foreground mb-6 tracking-tight">About Me</h2>
           <div className="w-32 h-1.5 bg-gradient-to-r from-primary to-accent mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Passionate about creating meaningful visual experiences that connect brands with their audiences.
+            Creative visuals that connect brands with people.
           </p>
         </div>
 
@@ -17,23 +17,13 @@ export function AboutSection() {
             <Card className="bg-card border-2 border-border hover:border-primary/30 transition-all duration-300 rounded-2xl shadow-lg">
               <CardContent className="p-10">
                 <p className="text-lg leading-relaxed text-card-foreground mb-8 font-medium">
-                  I'm a passionate graphic designer and social media specialist currently pursuing my studies while
-                  building my creative career in Cairo, Egypt. My journey in design began with a love for visual
-                  storytelling and has evolved into a comprehensive skill set spanning branding, digital design, and
-                  social media strategy.
+                  I’m Nada Ahmed, a passionate Graphic Designer specialized in branding, logo creation, and social media design. With a strong eye for visual storytelling, I help businesses build creative designs that connect with their audience and leave a lasting impact.
                 </p>
 
                 <p className="text-lg leading-relaxed text-card-foreground mb-8 font-medium">
-                  I believe that great design is not just about aesthetics—it's about creating meaningful connections
-                  between brands and their audiences. Whether I'm crafting a brand identity, designing social media
-                  content, or exploring UI/UX concepts, I approach each project with creativity, attention to detail,
-                  and strategic thinking.
+                  My design journey has been fueled by curiosity and continuous learning. Whether I’m crafting a brand identity, designing engaging social media campaigns, or developing creative visuals, I approach every project with creativity, attention to detail, and strategic thinking.
                 </p>
 
-                <p className="text-lg leading-relaxed text-card-foreground font-medium">
-                  When I'm not designing, you'll find me exploring the latest design trends, collaborating with fellow
-                  creatives, and continuously learning new techniques to enhance my craft.
-                </p>
               </CardContent>
             </Card>
           </div>

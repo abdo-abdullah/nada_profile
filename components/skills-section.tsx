@@ -5,18 +5,13 @@ export function SkillsSection() {
   const skillCategories = [
     {
       title: "Design Software",
-      skills: ["Adobe Photoshop", "Adobe Illustrator", "Canva", "Figma"],
+      skills: ["Adobe Photoshop", "Adobe Illustrator", "Canva"],
       icon: "🎨",
     },
     {
       title: "Specializations",
-      skills: ["Branding", "Logo Design", "Social Media Design", "UI/UX Basics"],
+      skills: ["Branding", "Logo Design", "Social Media Design"],
       icon: "⭐",
-    },
-    {
-      title: "Social Media",
-      skills: ["Content Strategy", "Social Media Management", "Campaign Design", "Analytics"],
-      icon: "📱",
     },
     {
       title: "Soft Skills",
@@ -36,9 +31,13 @@ export function SkillsSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center max-w-4xl mx-auto">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="bg-background border-border hover:shadow-lg transition-shadow duration-300">
+            <Card
+              key={index}
+              className="bg-background border-border hover:shadow-lg transition-all duration-500 hover:scale-105 animate-fade-in-up w-full max-w-sm"
+              style={{ animationDelay: `${index * 0.2}s` }}
+            >
               <CardHeader className="text-center pb-4">
                 <div className="text-4xl mb-2">{category.icon}</div>
                 <CardTitle className="font-heading text-xl text-foreground">{category.title}</CardTitle>
