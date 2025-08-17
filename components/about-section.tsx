@@ -39,7 +39,7 @@ export function AboutSection() {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center">
                 <img
-                  src="/nada-profile.jfif"
+                  src="/nada-profile.jpg"
                   alt="Nada Ahmed - Graphic Designer"
                   className="w-72 h-72 rounded-full object-cover border-4 border-background shadow-xl"
                 />

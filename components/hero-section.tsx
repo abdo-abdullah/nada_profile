@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowDown } from "lucide-react"
+import Image from "next/image"
 
 export function HeroSection() {
   return (
@@ -11,6 +12,18 @@ export function HeroSection() {
           <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-4 animate-fade-in">
             Nada Ahmed
           </h1>
+          <div className="mb-6 flex justify-center">
+            <div className="relative">
+              <Image
+                src="/nada-profile.jpg"
+                alt="Nada Ahmed - Graphic Designer"
+                width={150}
+                height={150}
+                className="rounded-full object-cover border-4 border-primary/20 shadow-lg"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/10 to-accent/10"></div>
+            </div>
+          </div>
           <p className="text-xl md:text-2xl text-muted-foreground mb-2">
             Graphic Designer | Student | Social Media Specialist
           </p>
