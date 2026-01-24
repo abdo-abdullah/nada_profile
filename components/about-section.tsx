@@ -32,7 +32,7 @@ export function AboutSection() {
             <div className="relative group">
               <div className="w-96 h-96 bg-gradient-to-br from-primary/20 via-accent/10 to-primary/20 rounded-full flex items-center justify-center shadow-2xl transition-transform duration-300 group-hover:scale-105">
                 <img
-                  src="/nada-profile.jpg"
+                  src="/nada.jpg"
                   alt="Nada Ahmed - Graphic Designer"
                   className="w-80 h-80 rounded-full object-cover border-4 border-background shadow-xl"
                 />
