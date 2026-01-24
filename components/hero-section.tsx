@@ -26,7 +26,7 @@ export function HeroSection() {
           >
             <div className="relative group">
               <Image
-                src="/nada-profile.jpg"
+                src="/nada.jpg"
                 alt="Nada Ahmed - Graphic Designer"
                 width={180}
                 height={180}
