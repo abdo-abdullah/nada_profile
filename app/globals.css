@@ -4,40 +4,58 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated to professional green-based color palette */
+  /* Updated to Pink color palette */
   --background: #ffffff; /* Pure white */
-  --foreground: #374151; /* Professional dark gray for text */
-  --card: #f0fdf4; /* Light green tint for cards */
+  --foreground: #374151; /* Dark gray for text */
+  
+  /* الخلفيات الفاتحة بقت بينك خفيف جداً بدل الأخضر */
+  --card: #fdf2f8; 
   --card-foreground: #374151;
   --popover: #ffffff;
   --popover-foreground: #374151;
-  --primary: #15803d; /* Professional green primary */
+  
+  /* اللون الأساسي: بينك غامق احترافي */
+  --primary: #db2777; 
   --primary-foreground: #ffffff;
-  --secondary: #f97316; /* Orange secondary for contrast */
+  
+  /* اللون الثانوي: روز بدل البرتقالي */
+  --secondary: #be123c; 
   --secondary-foreground: #ffffff;
-  --muted: #f0fdf4; /* Muted green background */
-  --muted-foreground: #6b7280; /* Softer gray for muted text */
-  --accent: #84cc16; /* Bright green accent */
+  
+  --muted: #fdf2f8; /* Muted pink background */
+  --muted-foreground: #6b7280;
+  
+  /* لون التمييز: فوشيا زاهي */
+  --accent: #ec4899; 
   --accent-foreground: #ffffff;
-  --destructive: #ea580c;
+  
+  --destructive: #be123c;
   --destructive-foreground: #ffffff;
-  --border: #e5e7eb; /* Light gray borders */
-  --input: #f0fdf4;
-  --ring: rgba(21, 128, 61, 0.5); /* Green focus ring */
-  --chart-1: #15803d;
-  --chart-2: #f97316;
-  --chart-3: #6366f1;
-  --chart-4: #e5e7eb;
+  
+  --border: #e5e7eb;
+  --input: #fdf2f8;
+  
+  /* حلقة التركيز: بينك شفاف */
+  --ring: rgba(219, 39, 119, 0.5); 
+  
+  /* ألوان الرسم البياني */
+  --chart-1: #db2777; /* Pink */
+  --chart-2: #be123c; /* Rose */
+  --chart-3: #ec4899; /* Fuchsia */
+  --chart-4: #f472b6; /* Light Pink */
   --chart-5: #374151;
+  
   --radius: 0.5rem;
-  --sidebar: #f0fdf4;
+  
+  --sidebar: #fdf2f8;
   --sidebar-foreground: #374151;
-  --sidebar-primary: #15803d;
+  --sidebar-primary: #db2777;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #84cc16;
+  --sidebar-accent: #ec4899;
   --sidebar-accent-foreground: #ffffff;
   --sidebar-border: #e5e7eb;
-  --sidebar-ring: rgba(21, 128, 61, 0.5);
+  --sidebar-ring: rgba(219, 39, 119, 0.5);
+  
   --font-dm-sans: "DM Sans", sans-serif;
   --font-space-grotesk: "Space Grotesk", sans-serif;
 }
@@ -49,32 +67,44 @@
   --card-foreground: #f1f5f9;
   --popover: #0f172a;
   --popover-foreground: #f1f5f9;
-  --primary: #22c55e;
+  
+  /* الوضع الليلي: بينك مضيء */
+  --primary: #f472b6; 
   --primary-foreground: #0f172a;
-  --secondary: #fb923c;
+  
+  /* الوضع الليلي: روز فاتح */
+  --secondary: #fb7185; 
   --secondary-foreground: #0f172a;
+  
   --muted: #1e293b;
   --muted-foreground: #94a3b8;
-  --accent: #a3e635;
+  
+  /* الوضع الليلي: بينك فاتح جداً */
+  --accent: #fbcfe8; 
   --accent-foreground: #0f172a;
-  --destructive: #f97316;
+  
+  --destructive: #fb7185;
   --destructive-foreground: #f1f5f9;
+  
   --border: #334155;
   --input: #1e293b;
-  --ring: rgba(34, 197, 94, 0.5);
-  --chart-1: #22c55e;
-  --chart-2: #fb923c;
-  --chart-3: #8b5cf6;
+  
+  --ring: rgba(244, 114, 182, 0.5);
+  
+  --chart-1: #f472b6;
+  --chart-2: #fb7185;
+  --chart-3: #c084fc;
   --chart-4: #334155;
   --chart-5: #f1f5f9;
+  
   --sidebar: #1e293b;
   --sidebar-foreground: #f1f5f9;
-  --sidebar-primary: #22c55e;
+  --sidebar-primary: #f472b6;
   --sidebar-primary-foreground: #0f172a;
-  --sidebar-accent: #a3e635;
+  --sidebar-accent: #fbcfe8;
   --sidebar-accent-foreground: #0f172a;
   --sidebar-border: #334155;
-  --sidebar-ring: rgba(34, 197, 94, 0.5);
+  --sidebar-ring: rgba(244, 114, 182, 0.5);
 }
 
 @theme inline {
