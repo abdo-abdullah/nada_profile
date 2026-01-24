@@ -53,7 +53,7 @@ export function PortfolioSection() {
         "At Yummy Burger, every bite is a flavorful experience full of freshness and happiness We use 100% fresh beef, perfectly seasoned and grilled to perfection Enjoy a juicy, mouthwatering taste made to satisfy every craving",
       image: "/yummy.png",
       tags: ["Logo Design", "Brand Identity", "Visual Identity"],
-      link: "https://www.behance.net/gallery/202796987/logo-graphic-designer",
+      link: "https://www.behance.net/gallery/237619437/Yummy-Burger-Identity",
     },
     {
       title: "FOXY I SOCIAL MEDIA DESIGNS",
