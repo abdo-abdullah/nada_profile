@@ -47,11 +47,11 @@ export function PortfolioSection() {
       link: "https://www.behance.net/gallery/224034641/SILVERSUN-I-SOCIAL-MEDIA-DESIGNS",
     },
     {
-      title: "Logo Graphic Designer",
+      title: "Yummy Burger Identity",
       category: "Branding",
       description:
-        "Professional logo design featuring elegant 'N' branding with gradient effects. Showcased in real-world application as storefront signage, demonstrating practical brand implementation and visual identity expertise.",
-      image: "/logo-graphic-designer.jpg",
+        "At Yummy Burger, every bite is a flavorful experience full of freshness and happiness We use 100% fresh beef, perfectly seasoned and grilled to perfection Enjoy a juicy, mouthwatering taste made to satisfy every craving",
+      image: "/yummy.png",
       tags: ["Logo Design", "Brand Identity", "Visual Identity"],
       link: "https://www.behance.net/gallery/202796987/logo-graphic-designer",
     },
