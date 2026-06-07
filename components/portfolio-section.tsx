@@ -29,13 +29,13 @@ export function PortfolioSection() {
 
   const projects = [
     {
-      title: "Minders'25 Ramadan Social media Campaign",
+      title: "SOCIAL MEDIA DESIGNS | FCAL CAIRO",
       category: "Social Media",
       description:
-        "Minders is a student activity group known for its creative and meaningful campaigns. This Ramadan campaign features Islamic geometric patterns and cohesive mobile app interface design.",
-      image: "/ramadan-campaign-2025.png",
+        "We are a student-led Game Development Community at Cairo University that helps students learn game development through hands-on experience, creativity, and collaboration.",
+      image: "/social.png",
       tags: ["Logo Design", "Print Design", "Social Media"],
-      link: "https://www.behance.net/gallery/224939771/Minders25-Ramadan-Social-media-Campaign",
+      link: "https://www.behance.net/gallery/245559591/SOCIAL-MEDIA-DESIGNS-FCAL-CAIRO",
     },
     {
       title: "SILVERSUN I SOCIAL MEDIA DESIGNS Campaign",
