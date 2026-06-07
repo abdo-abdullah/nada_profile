@@ -34,7 +34,7 @@ export function PortfolioSection() {
       description:
         "We are a student-led Game Development Community at Cairo University that helps students learn game development through hands-on experience, creativity, and collaboration.",
       image: "/social.png",
-      tags: ["Logo Design", "Print Design", "Social Media"],
+      tags: [ "Print Design", "Social Media"],
       link: "https://www.behance.net/gallery/245559591/SOCIAL-MEDIA-DESIGNS-FCAL-CAIRO",
     },
     {
